@@ -58,7 +58,15 @@ Antes de iniciar, é preciso ter o [Node.js](https://nodejs.org/en/) instalado n
 
 ### Iniciando
 
-Primeiro, rode o server de desenvolvimento:
+Primeiro, instale as dependências do projeto:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Em seguida rode o server de desenvolvimento:
 
 ```bash
 npm run dev
