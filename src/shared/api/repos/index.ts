@@ -40,6 +40,7 @@ export default class ReposAPI {
         return {
           name: repo.name,
           url: repo.url,
+          html_url: repo.html_url,
         };
       });
     }

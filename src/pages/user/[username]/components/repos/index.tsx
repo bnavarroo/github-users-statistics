@@ -11,6 +11,8 @@ type ReposProps = {
   repos: Array<{
     name: string;
     url: string;
+    // eslint-disable-next-line camelcase
+    html_url: string;
   }>;
 };
 
@@ -22,8 +24,8 @@ const Repos: React.FC<ReposProps> = ({ repos }) => (
         repos.map((repo) => (
           <RepoBox key={repo.name}>
             <RepoTitle>{repo.name}</RepoTitle>
-            <RepoLink href={repo.url} target="_blank">
-              {repo.url}
+            <RepoLink href={repo.html_url} target="_blank">
+              {repo.html_url}
             </RepoLink>
           </RepoBox>
         ))
