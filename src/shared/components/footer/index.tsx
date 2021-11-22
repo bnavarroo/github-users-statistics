@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import GithubLogo from '@assets/img/github-logo.svg';
 import LinkedinLogo from '@assets/img/linkedin-logo.svg';
 import {
@@ -15,13 +16,18 @@ const Footer: React.FC = () => (
         Desenvolvido por <b>Bruno Navarro</b>
       </DevelopByText>
       <ImagesWrapper>
-        <ImageContent href="https://github.com/bnavarroo" target="_blank">
+        <ImageContent
+          href="https://github.com/bnavarroo"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <GithubLogo />
           <span>/bnavarroo</span>
         </ImageContent>
         <ImageContent
           href="https://www.linkedin.com/in/bruno-navarro-oliveira/"
           target="_blank"
+          rel="noreferrer noopener"
         >
           <LinkedinLogo />
           <span>/bruno-navarro-oliveira</span>
@@ -31,4 +37,4 @@ const Footer: React.FC = () => (
   </Container>
 );
 
-export default Footer;
+export default memo(Footer);

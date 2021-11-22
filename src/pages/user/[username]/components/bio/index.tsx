@@ -37,28 +37,28 @@ const Bio: React.FC<BioProps> = ({
       </div>
     </FollowArea>
     <InfoArea>
-      {company && (
+      {!!company && (
         <InfoWithIcon>
           <CompanyIcon />
           <span>{company}</span>
         </InfoWithIcon>
       )}
-      {blog && (
+      {!!blog && (
         <InfoWithIcon>
           <LinkIcon />
-          <Link href={blog} target="_blank">
+          <Link href={blog} target="_blank" rel="noreferrer noopener">
             {blog}
           </Link>
         </InfoWithIcon>
       )}
-      {location && (
+      {!!location && (
         <InfoWithIcon>
           <LocationIcon />
           <span>{location}</span>
         </InfoWithIcon>
       )}
     </InfoArea>
-    <BioText>{bio ?? 'Esse usuário não possui resumo.'}</BioText>
+    <BioText>{bio || 'Esse usuário não possui resumo.'}</BioText>
   </Wrapper>
 );
 

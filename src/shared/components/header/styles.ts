@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import GithubLogo from '@assets/img/github-logo.svg';
 import { PageContainer } from '@styles/ui/container';
 
 const paddingYColumns = '15px';
@@ -39,16 +38,6 @@ export const HeaderWrapper = styled(PageContainer)`
   }
 `;
 
-export const Logo = styled(GithubLogo)`
-  padding: ${paddingYColumns} 0;
-  width: 60px;
-  height: auto;
-  fill: ${({ theme }) => theme.colors.text.onPrimary};
-  @media (min-width: ${({ theme }) => theme.breakpoints.desktopSmall.min}) {
-    width: 80px;
-  }
-`;
-
 export const SearchColumn = styled(EndColumn)`
   order: 3;
   width: 100%;
@@ -59,6 +48,7 @@ export const SearchColumn = styled(EndColumn)`
 
 export const LogoColumn = styled.div`
   order: 1;
+  padding: ${paddingYColumns} 0;
   @media (min-width: ${({ theme }) => theme.breakpoints.tablet.min}) {
     order: 2;
   }
@@ -77,8 +67,4 @@ export const ThemeSwitchColumn = styled(EndColumn)`
 export const ThemeSwitchLabel = styled.div`
   font-size: 12px;
   margin-top: 10px;
-`;
-
-export const LogoLink = styled.a`
-  cursor: pointer;
 `;

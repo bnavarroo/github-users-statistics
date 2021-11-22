@@ -24,7 +24,11 @@ const Repos: React.FC<ReposProps> = ({ repos }) => (
         repos.map((repo) => (
           <RepoBox key={repo.name}>
             <RepoTitle>{repo.name}</RepoTitle>
-            <RepoLink href={repo.html_url} target="_blank">
+            <RepoLink
+              href={repo.html_url}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               {repo.html_url}
             </RepoLink>
           </RepoBox>

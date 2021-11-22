@@ -1,9 +1,9 @@
-import Link from 'next/link';
 import Switch from 'react-switch';
 import { themes } from '@config/theme/index';
 import IThemeProps from '@core/interfaces/theme';
 import ThemeEnum from '@core/enums/theme';
 import Search from '@shared/components/search';
+import Logo from './components/logo';
 import {
   switchOffColor,
   switchBoxShadow,
@@ -14,8 +14,6 @@ import {
   LogoColumn,
   ThemeSwitchColumn,
   ThemeSwitchLabel,
-  Logo,
-  LogoLink,
 } from './styles';
 
 const Header: React.FC<IThemeProps> = ({ theme, toggleTheme }) => {
@@ -32,11 +30,7 @@ const Header: React.FC<IThemeProps> = ({ theme, toggleTheme }) => {
           <Search />
         </SearchColumn>
         <LogoColumn>
-          <Link href="/">
-            <LogoLink>
-              <Logo />
-            </LogoLink>
-          </Link>
+          <Logo />
         </LogoColumn>
         <ThemeSwitchColumn>
           <Switch

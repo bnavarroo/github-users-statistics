@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { memo, useRef } from 'react';
 import { useRouter } from 'next/router';
 import handleSubmitSearch from './helpers';
 import { Form, SearchBox, Icon } from './styles';
@@ -19,4 +19,4 @@ const Search: React.FC = () => {
   );
 };
 
-export default Search;
+export default memo(Search);

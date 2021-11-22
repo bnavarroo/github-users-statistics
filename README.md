@@ -7,7 +7,7 @@
 
 ## Descrição do Projeto
 <p>
-Aplicação que consume a <a href="https://docs.github.com/pt/rest"><b>api REST do GitHub</b><a/> e exibe informações do usuário.  
+Aplicação que consume a <a href="https://docs.github.com/pt/rest"><b>api REST do GitHub</b><a/> e exibe informações do usuário.
 </p>
 
 ## ✅ Features
@@ -40,7 +40,7 @@ Contém definições de tipos, enums e interfaces globais.
 Contém as páginas da aplicação e componentes inerentes ao Next.js.
 
 ### `shared`
-A pasta shared contém os componentes(incluindo styled-components) que são compartilhados na aplicação. Os componentes declarados nessa pasta são independentes e tecnicamente podem ser utilizados em qualquer local do projeto.
+A pasta shared contém os itens que são compartilhados na aplicação. Os itens declarados nessa pasta são independentes e tecnicamente podem ser utilizados em qualquer local do projeto.
 
 ### `styles`
 A pasta styles contém definições inerentes aos estilos, de uma maneira geral: estilo global, definição dos temas, definição de breakpoints, etc.
@@ -82,4 +82,4 @@ Abra [http://localhost:3000](http://localhost:3000) no browser para ver a aplica
 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62071446?s=400&u=851a0c918e6257a6cf47ebdcafa271e67f4503fc&v=4" width="100px;" alt=""/>
 <b>Bruno Navarro de Oliveira</b></sub>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Bruno-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bruno-navarro-oliveira/)](https://www.linkedin.com/in/bruno-navarro-oliveira/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Bruno-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bruno-navarro-oliveira/)](https://www.linkedin.com/in/bruno-navarro-oliveira/)
