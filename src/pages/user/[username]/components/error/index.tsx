@@ -1,6 +1,6 @@
 import { ResponseApiErrorMsg } from '@core/types/api';
 import { Container, Title, Subtitle } from '@styles/ui/error-page';
-import { Message } from './styles';
+import { Message } from '@styles/pages/user/components/error';
 
 const UserErrorMessage: React.FC<ResponseApiErrorMsg> = ({
   text,

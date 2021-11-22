@@ -1,4 +1,10 @@
-import { Container, ContainerName, Image, Name, Login } from './styles';
+import {
+  Container,
+  ContainerName,
+  Image,
+  Name,
+  Login,
+} from '@styles/pages/user/components/basic-info';
 
 type BasicInfoProps = {
   name: string;

@@ -5,7 +5,7 @@ import {
   RepoBox,
   RepoTitle,
   RepoLink,
-} from './styles';
+} from '@styles/pages/user/components/repos';
 
 type ReposProps = {
   repos: Array<{

@@ -43,7 +43,7 @@ Contém as páginas da aplicação e componentes inerentes ao Next.js.
 A pasta shared contém os itens que são compartilhados na aplicação. Os itens declarados nessa pasta são independentes e tecnicamente podem ser utilizados em qualquer local do projeto.
 
 ### `styles`
-A pasta styles contém definições inerentes aos estilos, de uma maneira geral: estilo global, definição dos temas, definição de breakpoints, etc.
+A pasta styles contém definições inerentes aos estilos, de uma maneira geral: estilo global, definição dos temas, definição de breakpoints, estilização das páginas e seus componentes, etc.
 
 ### `utilities`
 A pasta utilities contém todo o código utilitário da aplicação, como funções genéricas, hoc, hooks, entre outros.

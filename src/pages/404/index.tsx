@@ -1,7 +1,7 @@
 import IThemeProps from '@core/interfaces/theme';
 import HeaderTemplate from '@shared/templates/header';
 import { Container, Title, Subtitle } from '@styles/ui/error-page';
-import { Logo } from './styles';
+import { Logo } from '@styles/pages/404';
 
 const Custom404: React.FC<IThemeProps> = ({ theme, toggleTheme }) => (
   <HeaderTemplate theme={theme} toggleTheme={toggleTheme}>

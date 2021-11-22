@@ -3,11 +3,11 @@ import { ResponseApi } from '@core/types/api';
 import { UserType } from '@core/types/api/user';
 import UsersAPI from '@shared/api/user';
 import HeaderTemplate from '@shared/templates/header';
+import { Wrapper } from '@styles/pages/user';
 import UserErrorMessage from './components/error';
 import BasicInfo from './components/basic-info';
 import Bio from './components/bio';
 import Repos from './components/repos';
-import { Wrapper } from './styles';
 
 interface IUserProps extends IThemeProps {
   userData: ResponseApi<UserType>;

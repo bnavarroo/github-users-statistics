@@ -8,7 +8,7 @@ import {
   CompanyIcon,
   LocationIcon,
   LinkIcon,
-} from './styles';
+} from '@styles/pages/user/components/bio';
 
 type BioProps = {
   company?: string;
