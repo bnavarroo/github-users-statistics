@@ -2,6 +2,11 @@
   <img src="https://github.com/bnavarroo/github-users-statistics/blob/main/src/assets/img/github-logo.svg" alt="Github Users Statistics" width="100px" />
   <h1 align="center">Github Users Statistics</h1>
 </p>
+<p align="center">
+  <a href="https://github-users-statistics.vercel.app/" target="_blank">
+    Clique aqui para ver a aplicação
+  </a>
+</p>
 
 <br />
 
