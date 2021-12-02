@@ -29,6 +29,8 @@ As principais ferramentas utilizadas para a construção do projeto foram:
 - [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Enzyme](https://www.npmjs.com/package/enzyme)
 
 ## 🚧 Estrutura Geral do Projeto
 
