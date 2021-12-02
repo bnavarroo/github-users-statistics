@@ -4,6 +4,7 @@ import ThemeCommon from './_common';
 
 const LightTheme: ThemeType = {
   name: ThemeEnum.Light,
+  textName: 'Claro',
   colors: {
     primary: '#FFF',
     secondary: '#222',

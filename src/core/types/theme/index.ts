@@ -22,6 +22,7 @@ export type ThemeColorsType = {
 
 export type ThemeType = {
   name: ThemeEnum;
+  textName: string;
   colors: ThemeColorsType;
   fontSize: string;
   fontWeight: number;

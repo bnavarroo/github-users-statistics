@@ -4,6 +4,7 @@ import ThemeCommon from './_common';
 
 const DarkTheme: ThemeType = {
   name: ThemeEnum.Dark,
+  textName: 'Escuro',
   colors: {
     primary: '#333',
     secondary: '#EEE1B3',

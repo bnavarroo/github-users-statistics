@@ -1,7 +1,6 @@
 import Switch from 'react-switch';
 import { themes } from '@config/theme/index';
 import IThemeProps from '@core/interfaces/theme';
-import ThemeEnum from '@core/enums/theme';
 import Search from '@shared/components/search';
 import Logo from './components/logo';
 import {
@@ -20,8 +19,7 @@ const Header: React.FC<IThemeProps> = ({ theme, toggleTheme }) => {
   const { name: themeName, colors: themeColors } = theme;
   const themeLabel =
     themeName === themes.default.name ? 'Ativado' : 'Desativado';
-  const themeText =
-    themes.default.name === ThemeEnum.Light ? 'Claro' : 'Escuro';
+  const themeText = themes.default.textName;
 
   return (
     <HeaderContainer as="header">
